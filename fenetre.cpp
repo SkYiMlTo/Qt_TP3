@@ -8,9 +8,6 @@
 fenetre::fenetre(){
     setWindowTitle("IHM");
     this->setMinimumSize(200,200);
-//    myBar = new QProgressBar(this);
-//    myBar->setValue(50);
-//    mySlider =new QSlider(Qt::Horizontal,this);
 
     myBar = new QProgressBar();
     myBar->setRange(0, 100);
@@ -28,5 +25,4 @@ fenetre::fenetre(){
     this->setLayout(verticalLayout);
 
     connect(mySlider, SIGNAL(valueChanged(int)), myBar, SLOT(vetValue(int)));
-//    emit signalValueChanged(3);
 }
