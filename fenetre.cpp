@@ -27,10 +27,6 @@ fenetre::fenetre(){
     verticalLayout->addWidget(mySlider);
     this->setLayout(verticalLayout);
 
-    connect(mySlider, SIGNAL(signalValueChanged(int)), myBar, SLOT(slotSetValue(int)));
+    connect(mySlider, SIGNAL(valueChanged(int)), myBar, SLOT(vetValue(int)));
 //    emit signalValueChanged(3);
-}
-
-void fenetre::slotSetValue(int value) {
-    this->value = value;
 }

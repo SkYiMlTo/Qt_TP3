@@ -14,16 +14,10 @@ class fenetre : public QWidget{
 private:
     QProgressBar * myBar;
     QSlider * mySlider;
-    int value;
 
 public:
     fenetre();
 
-//public slots:
-//    void slotSetValue(int value);
-//
-//signals:
-//    void signalValueChanged(int value);
 };
 
 
