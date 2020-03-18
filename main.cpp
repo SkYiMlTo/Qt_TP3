@@ -1,6 +1,9 @@
-#include <iostream>
+#include <QtWidgets/QApplication>
+#include "fenetre.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+int main(int argc, char **argv) {
+    QApplication app (argc, argv);
+    fenetre sql;
+    sql.show();
+    return app.exec();
 }

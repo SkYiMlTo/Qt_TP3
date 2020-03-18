@@ -1,3 +1,4 @@
 /mnt/c/Users/Gogob/CLionProjects/TP3Qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Gogob/CLionProjects/TP3Qt/cmake-build-debug/CMakeFiles/TP3Qt.dir
 /mnt/c/Users/Gogob/CLionProjects/TP3Qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Gogob/CLionProjects/TP3Qt/cmake-build-debug/CMakeFiles/TP3Qt_autogen.dir
