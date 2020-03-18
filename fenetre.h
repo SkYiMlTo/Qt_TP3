@@ -19,11 +19,11 @@ private:
 public:
     fenetre();
 
-public slots:
-    void slotSetValue(int value);
-
-signals:
-    void signalValueChanged(int value);
+//public slots:
+//    void slotSetValue(int value);
+//
+//signals:
+//    void signalValueChanged(int value);
 };
 
 
