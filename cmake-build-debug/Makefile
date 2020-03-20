@@ -136,6 +136,60 @@ TP3Qt_autogen/fast:
 	$(MAKE) -f CMakeFiles/TP3Qt_autogen.dir/build.make CMakeFiles/TP3Qt_autogen.dir/build
 .PHONY : TP3Qt_autogen/fast
 
+Exercice1.o: Exercice1.cpp.o
+
+.PHONY : Exercice1.o
+
+# target to build an object file
+Exercice1.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice1.cpp.o
+.PHONY : Exercice1.cpp.o
+
+Exercice1.i: Exercice1.cpp.i
+
+.PHONY : Exercice1.i
+
+# target to preprocess a source file
+Exercice1.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice1.cpp.i
+.PHONY : Exercice1.cpp.i
+
+Exercice1.s: Exercice1.cpp.s
+
+.PHONY : Exercice1.s
+
+# target to generate assembly for a file
+Exercice1.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice1.cpp.s
+.PHONY : Exercice1.cpp.s
+
+Exercice2.o: Exercice2.cpp.o
+
+.PHONY : Exercice2.o
+
+# target to build an object file
+Exercice2.cpp.o:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice2.cpp.o
+.PHONY : Exercice2.cpp.o
+
+Exercice2.i: Exercice2.cpp.i
+
+.PHONY : Exercice2.i
+
+# target to preprocess a source file
+Exercice2.cpp.i:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice2.cpp.i
+.PHONY : Exercice2.cpp.i
+
+Exercice2.s: Exercice2.cpp.s
+
+.PHONY : Exercice2.s
+
+# target to generate assembly for a file
+Exercice2.cpp.s:
+	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/Exercice2.cpp.s
+.PHONY : Exercice2.cpp.s
+
 TP3Qt_autogen/mocs_compilation.o: TP3Qt_autogen/mocs_compilation.cpp.o
 
 .PHONY : TP3Qt_autogen/mocs_compilation.o
@@ -162,33 +216,6 @@ TP3Qt_autogen/mocs_compilation.s: TP3Qt_autogen/mocs_compilation.cpp.s
 TP3Qt_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/TP3Qt_autogen/mocs_compilation.cpp.s
 .PHONY : TP3Qt_autogen/mocs_compilation.cpp.s
-
-fenetre.o: fenetre.cpp.o
-
-.PHONY : fenetre.o
-
-# target to build an object file
-fenetre.cpp.o:
-	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/fenetre.cpp.o
-.PHONY : fenetre.cpp.o
-
-fenetre.i: fenetre.cpp.i
-
-.PHONY : fenetre.i
-
-# target to preprocess a source file
-fenetre.cpp.i:
-	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/fenetre.cpp.i
-.PHONY : fenetre.cpp.i
-
-fenetre.s: fenetre.cpp.s
-
-.PHONY : fenetre.s
-
-# target to generate assembly for a file
-fenetre.cpp.s:
-	$(MAKE) -f CMakeFiles/TP3Qt.dir/build.make CMakeFiles/TP3Qt.dir/fenetre.cpp.s
-.PHONY : fenetre.cpp.s
 
 main.o: main.cpp.o
 
@@ -227,12 +254,15 @@ help:
 	@echo "... TP3Qt"
 	@echo "... edit_cache"
 	@echo "... TP3Qt_autogen"
+	@echo "... Exercice1.o"
+	@echo "... Exercice1.i"
+	@echo "... Exercice1.s"
+	@echo "... Exercice2.o"
+	@echo "... Exercice2.i"
+	@echo "... Exercice2.s"
 	@echo "... TP3Qt_autogen/mocs_compilation.o"
 	@echo "... TP3Qt_autogen/mocs_compilation.i"
 	@echo "... TP3Qt_autogen/mocs_compilation.s"
-	@echo "... fenetre.o"
-	@echo "... fenetre.i"
-	@echo "... fenetre.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

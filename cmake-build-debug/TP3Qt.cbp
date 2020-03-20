@@ -112,13 +112,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/Exercice1.cpp">
+			<Option target="TP3Qt"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/Exercice1.h">
+			<Option target="TP3Qt"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/Exercice2.cpp">
+			<Option target="TP3Qt"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/Exercice2.h">
+			<Option target="TP3Qt"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/cmake-build-debug/TP3Qt_autogen/mocs_compilation.cpp">
-			<Option target="TP3Qt"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/fenetre.cpp">
-			<Option target="TP3Qt"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/fenetre.h">
 			<Option target="TP3Qt"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Gogob/CLionProjects/TP3Qt/main.cpp">

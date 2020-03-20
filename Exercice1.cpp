@@ -3,9 +3,9 @@
 //
 
 #include <QtWidgets/QVBoxLayout>
-#include "fenetre.h"
+#include "Exercice1.h"
 
-fenetre::fenetre(){
+Exercice1::Exercice1(){
     setWindowTitle("IHM");
     this->setMinimumSize(200,200);
 
@@ -24,5 +24,5 @@ fenetre::fenetre(){
     verticalLayout->addWidget(mySlider);
     this->setLayout(verticalLayout);
 
-    connect(mySlider, SIGNAL(valueChanged(int)), myBar, SLOT(vetValue(int)));
+    connect(mySlider, SIGNAL(valueChanged(int)), myBar, SLOT(setValue(int)));
 }
