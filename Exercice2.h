@@ -8,14 +8,26 @@
 #include <QtCore/QObject>
 #include <QtWidgets/QPushButton>
 #include <QtCore>
+#include <QtWidgets/QTextEdit>
+#include "Exercice1.h"
 
 
 class Exercice2 : public QWidget{
     Q_OBJECT
 private:
-    QPushButton* myButton;
+    QPushButton* exitButton;
+    QPushButton* secondButton;
+    QPushButton* buttonTexArea;
+    QPushButton* buttonNewWindow;
+    QTextEdit* textArea;
+    int nbClicks, nbClicksTextArea;
 public:
     Exercice2();
+
+public slots:
+    void printNewInformations();
+    void changeTextArea();
+    void displayExercice1();
 };
 
 
