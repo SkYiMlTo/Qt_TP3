@@ -12,7 +12,7 @@ using namespace std;
 Exercice2::Exercice2() {
     this->setMinimumSize(200,200);
 
-    exitButton = new QPushButton("fils", this);
+    exitButton = new QPushButton("fils (ferme programme)", this);
     secondButton = new QPushButton("Cliquez", this);
     buttonTexArea = new QPushButton("Bouton zone de texte !", this);
     buttonNewWindow = new QPushButton("Pour afficher l'ex1 c'est ici !", this);
@@ -52,7 +52,7 @@ void Exercice2::changeTextArea(){
 }
 
 void Exercice2::displayExercice1(){
-    this->hide();
+//    this->hide();
     Exercice1* ex1 = new Exercice1();
     ex1->show();
 }
